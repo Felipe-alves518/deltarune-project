@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.font-pixelify{
+  font-family:'Pixelify Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.highlight-white{
+  filter:drop-shadow(1px 1px #0F0F70);
+
+}
+
+ul{
+  list-style-type: square;
+}
