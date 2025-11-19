@@ -12,11 +12,11 @@ function App() {
 
     {/* DIV Gif inicio*/}
    <div className='bg-[#000000] relative overflow-hidden bg-no-repeat bg-center h-[780px] w-screen  flex flex-col items-center justify-center '>
-      <img src='src/assets/key-art.gif ' className='z-10 h-[780px] max-h-[780px] max-w-[960px]'/>
+      <img src='assets/key-art.gif ' className='z-10 h-[780px] max-h-[780px] max-w-[960px]'/>
 
       {/* CHILD Div da logo */}
       <div className= "absolute z-20">
-        <img src='src/assets/logo.png' className='w-[600px] highlight-white'/>
+        <img src='assets/logo.png' className='w-[600px] highlight-white'/>
         <p className='text-[#FFFFFF] font-pixelify text-[50px]  text-center w-96 m-auto'>Chapters 1-4</p>
       </div>
       {/*Fim Div da logo */}
@@ -29,11 +29,11 @@ function App() {
     <div className='bg-[#004FDE] flex flex-col items-center'> {/*Div azul escuro */}
       <p className='text-[#FFFFFF] font-pixelify text-[20px]'>Disponível Agora</p>
       <div className='flex flex-row flex-wrap  w-[500px] justify-center'>
-        <Box image = "src/assets/platform-square-steam-tall.png" bgcolor="gray"/>
-        <Box image="src/assets/platform-square-switch2.png" bgcolor="red" />
-        <Box image="src/assets/platform-square-ps5.png" bgcolor="white" invert = {true}  />
-        <Box image="src/assets/platform-square-switch.png" bgcolor="red" />
-        <Box image="src/assets/platform-square-ps4.png" bgcolor="blue" />
+        <Box image = "assets/platform-square-steam-tall.png" bgcolor="gray"/>
+        <Box image="assets/platform-square-switch2.png" bgcolor="red" />
+        <Box image="assets/platform-square-ps5.png" bgcolor="white" invert = {true}  />
+        <Box image="assets/platform-square-switch.png" bgcolor="red" />
+        <Box image="assets/platform-square-ps4.png" bgcolor="blue" />
 
       </div>
 
@@ -59,12 +59,12 @@ function App() {
       </div>
 
       <div className='grid grid-rows-2 grid-flow-col w-[550px] gap-[10px] my-[20px] '>
-        <ImgBox img="src/assets/ss-1-en.png"/>
-        <ImgBox img="src/assets/ss-4-en.png"/>
-        <ImgBox img="src/assets/ss-2-en.png"/>
-        <ImgBox img="src/assets/ss-5-en.png"/>
-        <ImgBox img="src/assets/ss-3-en.png"/>
-        <ImgBox img="src/assets/ss-6-en.png"/>
+        <ImgBox img="assets/ss-1-en.png"/>
+        <ImgBox img="assets/ss-4-en.png"/>
+        <ImgBox img="assets/ss-2-en.png"/>
+        <ImgBox img="assets/ss-5-en.png"/>
+        <ImgBox img="assets/ss-3-en.png"/>
+        <ImgBox img="assets/ss-6-en.png"/>
       </div>
 
     </div> {/*Div azul escuro FIM */}
@@ -76,18 +76,18 @@ function App() {
        <div className='m-8'>
       <div className='flex flex-col relative items-center h-[300px] w-[500px] justify-center my-[70px] '>
         <div className='absolute'>
-          <img src="src/assets/bg.gif" className=''/>
-          <img src="src/assets/ribbon.png" className='absolute left-[50%] top-[80%] translate-x-[-50%] '/>
+          <img src="assets/bg.gif" className=''/>
+          <img src="assets/ribbon.png" className='absolute left-[50%] top-[80%] translate-x-[-50%] '/>
             <div className=' absolute flex  left-[50%] top-[89%] translate-x-[-50%] h-[8%]'>
               
               <input type='button' value={"PC/Mac"} className=' font-pixelify text-white  border-2 mx-2 px-2 rounded-md border-white'></input>
-              <input type='image' className='border-2 mx-2 rounded-md border-white' src='src/assets/platform-switch.png'/>
-              <input type='image' className='border-2 mx-2 rounded-md border-white'  src='src/assets/platform-ps4.png'/>
+              <input type='image' className='border-2 mx-2 rounded-md border-white' src='assets/platform-switch.png'/>
+              <input type='image' className='border-2 mx-2 rounded-md border-white'  src='assets/platform-ps4.png'/>
             </div>
         </div>
 
       <div className='absolute top-[50%]'>
-        <img src="src/assets/logo.png" className='w-[300px]'/>
+        <img src="assets/logo.png" className='w-[300px]'/>
       </div>  
     </div> {/*DIV do segundo gif Fim */}
 
@@ -103,8 +103,8 @@ function App() {
         </div>  
 
         <div className='flex'>
-        <Media image="src/assets/social-bluesky.svg" />
-        <Media image="src/assets/social-twitter.svg"/>
+        <Media image="assets/social-bluesky.svg" />
+        <Media image="assets/social-twitter.svg"/>
         </div>
 
 
@@ -114,11 +114,11 @@ function App() {
 
       <div>
           <div className='flex flex-col'>
-          <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
-          <News image="src/assets/spamton-sweepstakes-logo.png" date="Dec 17, 2022 -" title="$pamton G. $pamton EVENTO ESPECIAL"/>
-          <News image="src/assets/thumb-green-room-door.png" date="Sept, 2022 -" title="Deltarune atualização de status"/>
-          <News image="src/assets/thumb-ch2-thanks.png" date="Sept, 2021 -" title="Deltarune atualização de status"/>
-          <News image="src/assets/thumb-ch2.png" date="Sept, 2020 -" title="Deltarune atualização de status"/>
+          <News image="assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
+          <News image="assets/spamton-sweepstakes-logo.png" date="Dec 17, 2022 -" title="$pamton G. $pamton EVENTO ESPECIAL"/>
+          <News image="assets/thumb-green-room-door.png" date="Sept, 2022 -" title="Deltarune atualização de status"/>
+          <News image="assets/thumb-ch2-thanks.png" date="Sept, 2021 -" title="Deltarune atualização de status"/>
+          <News image="assets/thumb-ch2.png" date="Sept, 2020 -" title="Deltarune atualização de status"/>
           </div>
       </div>
 
