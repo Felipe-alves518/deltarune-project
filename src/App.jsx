@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Box from './box.jsx'
 import ImgBox from './ImgBox.jsx'
@@ -10,20 +8,20 @@ function App() {
   
   return (
     
-    <div className='border-10 border-orange-500'>  {/*Inicio Site*/}
+    <div className=''>  {/*Inicio Site*/}
 
     {/* DIV Gif inicio*/}
-   <div className='bg-[#000000] relative border-8 border-red-400 overflow-hidden bg-no-repeat bg-center h-[780px] w-screen  flex flex-col items-center justify-center '>
+   <div className='bg-[#000000] relative overflow-hidden bg-no-repeat bg-center h-[780px] w-screen  flex flex-col items-center justify-center '>
       <img src='src/assets/key-art.gif ' className='z-10 h-[780px] max-h-[780px] max-w-[960px]'/>
 
       {/* CHILD Div da logo */}
-      <div className= "absolute border-8 border-cyan-800 z-20">
+      <div className= "absolute z-20">
         <img src='src/assets/logo.png' className='w-[600px] highlight-white'/>
-        <p className='text-[#FFFFFF] font-pixelify text-[50px] border-2 text-center w-96 m-auto'>Chapters 1-4</p>
+        <p className='text-[#FFFFFF] font-pixelify text-[50px]  text-center w-96 m-auto'>Chapters 1-4</p>
       </div>
       {/*Fim Div da logo */}
 
-      <div className='absolute bg-[#004FDE] w-full bottom-0 z-0 h-[34px]'/>
+      <div className='absolute bg-[#004FDE] w-full bottom-0 z-0 h-[42px]'/>
       
     </div>  
     {/* DIV Gif Fim*/}
@@ -117,10 +115,10 @@ function App() {
       <div>
           <div className='flex flex-col'>
           <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
-          <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
-          <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
-          <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
-          <News image="src/assets/thumb-archive.png" date="Dec 25, 2022 -" title="Arquivo da caixa de correios"/>
+          <News image="src/assets/spamton-sweepstakes-logo.png" date="Dec 17, 2022 -" title="$pamton G. $pamton EVENTO ESPECIAL"/>
+          <News image="src/assets/thumb-green-room-door.png" date="Sept, 2022 -" title="Deltarune atualização de status"/>
+          <News image="src/assets/thumb-ch2-thanks.png" date="Sept, 2021 -" title="Deltarune atualização de status"/>
+          <News image="src/assets/thumb-ch2.png" date="Sept, 2020 -" title="Deltarune atualização de status"/>
           </div>
       </div>
 
